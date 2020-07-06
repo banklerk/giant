@@ -10,7 +10,7 @@
 - Слайдер с фидбэком от клиентов на основе materialize фреймворка
 
 
-[**Онлайн демо**](https://banklerk.github.io/cutaway/)
+[**Онлайн демо**](https://banklerk.github.io/giant/)
 
 ### Тестировать локально
 
