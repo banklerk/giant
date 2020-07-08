@@ -625,11 +625,9 @@ img {
 }
 .block-mokup {
   position: relative;
+  object-fit: contain;
   display: none;
   margin: 0 auto;
-}
-img[src="img/mokup.png"] {
-  object-fit: cover;
 }
 .block-info {
   box-sizing: border-box;
