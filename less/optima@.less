@@ -1,0 +1,22 @@
+@brk_xxs: 320px;
+@brk_xxm: 1440px;
+@brk_xxl: 1620px;
+
+
+.xxm-block(@content){
+  @media screen and (max-width: @brk_xxm){
+      @content();
+  }
+}
+.xxs-block(@content){
+  @media screen and (min-width: @brk_xxs){
+      @content();
+  }
+}
+
+.xxl-block(@content){
+  @media screen and (min-width: @brk_xxl){
+      @content();
+  }
+}
+

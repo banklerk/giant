@@ -1,0 +1,43 @@
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  .sm-block({max-width: 540px;});
+  .md-block({max-width: 720px;});
+  .lg-block({max-width: 960px;});
+  .xl-block({.wrapper();});
+}
+
+.row {
+  .row-flex();
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.front-page {
+  .overlay(@bg-index);
+}
+
