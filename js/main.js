@@ -2,8 +2,8 @@ $(document).ready(function () {
   $('.carousel').carousel({
     numVisible: 7,
     dist: -900,
-    padding: 150,
-    shift: -100,
+    padding: 165,
+    shift: -90,
   });
 
   $('.moveNextCarousel').click(function (e) {

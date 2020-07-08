@@ -631,11 +631,11 @@ img {
 }
 img.block-mokup {
   position: absolute;
+  object-fit: cover;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  object-fit: cover;
 }
 .block-info {
   box-sizing: border-box;
