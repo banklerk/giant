@@ -624,10 +624,18 @@ img {
   bottom: 30px;
 }
 .block-mokup {
-  position: relative;
-  object-fit: contain;
   display: none;
+  position: relative;
   margin: 0 auto;
+  max-width: 850px;
+}
+img.block-mokup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 .block-info {
   box-sizing: border-box;
@@ -1184,8 +1192,7 @@ i.middle-indicator-text:focus {
     display: none;
   }
   .block-mokup {
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   .block-info {
     margin: 0 auto;
