@@ -382,7 +382,7 @@ a.disabled {
   margin-left: -15px;
   margin-right: -15px;
 }
-img:not(.carousel-item__pic) {
+img {
   max-width: 100%;
   height: auto;
 }
@@ -731,6 +731,11 @@ img:not(.carousel-item__pic) {
   top: 0;
   opacity: 1 !important;
   box-shadow: none;
+}
+.carousel .carousel-item__pic,
+.carousel-feedback .carousel-item__pic {
+  width: initial;
+  height: initial;
 }
 .middle-indicator {
   position: absolute;
