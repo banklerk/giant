@@ -1112,6 +1112,7 @@ i.middle-indicator-text:focus {
   margin: 0;
   font-size: 14px;
   font-weight: 300;
+  white-space: pre;
   font-family: "Roboto", sans-serif;
 }
 .download-item__inner span {
